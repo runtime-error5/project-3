@@ -4,7 +4,6 @@
   "description": "A Node Js API",
   "main": "app.js",
   "scripts": {
-    "dev": "nodemon app.js",
     "start": "node app.js"
   },
   "keywords": [
