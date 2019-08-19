@@ -13,7 +13,7 @@ dotenv.config();
 // db
 // MONGO_URI=mongodb://localhost/nodeapi
 mongoose
-    .connect(process.env.MONGO_URI, { useNewUrlParser: true })
+    .connect(`mongodb://bteng:project123@ds163517.mlab.com:63517/heroku_xsgw2vqq`, { useNewUrlParser: true })
     .then(() => console.log("DB Connected"));
 
 mongoose.connection.on("error", err => {
